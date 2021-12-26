@@ -3,6 +3,16 @@ package exam.ex5;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Имеется строка с текстом.
+ * Подсчитайте уникальное количество слов в тексте.
+ * Учитывайте, что слова могут разделяться несколькими пробелами, знаками препинания.
+ * Пробелы могут присутствовать в начале и конце текста.
+ * Примеры уникальности:
+ * dog и Dog - одинаковые
+ * dog и dogs - разные
+ */
+
 public class UniqueNumberOfWords {
 
     public static int numberOfUniqueWords(String str) {
