@@ -1,9 +1,9 @@
 package exam.ex5;
 
 import static exam.ex5.UniqueNumberOfWords.*;
-import static org.junit.Assert.assertEquals;
+import static org.testng.AssertJUnit.assertEquals;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class UniqueNumberOfWordsTest {
 

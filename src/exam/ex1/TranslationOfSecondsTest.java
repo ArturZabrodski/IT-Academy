@@ -1,9 +1,9 @@
 package exam.ex1;
 
 import static exam.ex1.TranslationOfSeconds.*;
-import static org.junit.Assert.assertEquals;
+import static org.testng.AssertJUnit.assertEquals;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class TranslationOfSecondsTest {
 

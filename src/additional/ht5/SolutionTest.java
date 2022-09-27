@@ -1,9 +1,9 @@
 package additional.ht5;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import static additional.ht5.Solution.*;
-import static org.junit.Assert.assertEquals;
+import static org.testng.AssertJUnit.assertEquals;
 
 public class SolutionTest {
 

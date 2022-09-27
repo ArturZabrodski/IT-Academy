@@ -1,9 +1,10 @@
 package additional.ht4;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import static additional.ht4.AnagramUtils.*;
-import static org.junit.Assert.*;
+import static org.testng.AssertJUnit.assertFalse;
+import static org.testng.AssertJUnit.assertTrue;
 
 public class AnagramUtilsTest {
 
